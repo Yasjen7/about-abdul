@@ -1,0 +1,103 @@
+
+
+.header {
+    background: #E6FAF5;
+    color: #2C3E50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 27px;
+    margin: 5px;
+    height: auto;
+    border-radius: 20%;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #A7DDE9;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.li {
+  display: flex;
+}
+
+.fa-linkedin {
+  background: #66B2D6;
+  color: #ebfbfe;
+  border-radius: 40px;
+  align-self: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 20%;
+  border-style: ridge;
+  border-width: 20px;
+  border-color: #B7D8E6;
+}
+
+.column1 {
+    float: left;
+    width: 30.30%;
+    padding: auto;
+  }
+
+.column2 {
+    float: left;
+    width: 22.22%;
+    padding: auto;
+  }
+
+.column3 {
+    float: right;
+    width: 30.30%;
+    padding: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 
+Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background: #E6FAF5;
+    color: #2C3E50;
+    height: auto;
+    font-size: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 27px;
+    margin: 5px;
+    border-radius: 20%;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #A7DDE9 ;
+}
+

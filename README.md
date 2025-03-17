@@ -1,1 +1,2 @@
 # about-abdul
+    I built an about me website for Abdulahi Hussein, showcasing his journey, skills, and hobbies. The site highlights what he enjoys, tech expertise, and personal story in a clean, engaging layout designed to leave a lasting impression.
